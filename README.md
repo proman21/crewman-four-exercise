@@ -63,16 +63,22 @@ Using the previous example again the ordered tasks would be represented by the f
     },
     "subTasks": [
       {
-        "description": "Pickup milk",
-        "ID": 2,
-        "nextID": 3,
-        "parentID": 1
+        "task": {
+          "description": "Pickup milk",
+          "ID": 2,
+          "nextID": 3,
+          "parentID": 1
+        },
+        "subTasks": []
       },
       {
-        "description": "Pickup bread",
-        "ID": 3,
-        "previousID": 2,
-        "parentID": 1
+        "task": {
+          "description": "Pickup bread",
+          "ID": 3,
+          "previousID": 2,
+          "parentID": 1
+        },
+        "subTasks": []
       }
     ]
   },
