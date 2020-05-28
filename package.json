@@ -1,0 +1,24 @@
+{
+  "name": "crewmanfour-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "prestart": "webpack --config webpack.config.js",
+    "start": "node ./dist/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/proman21/crewman-four-exercise.git"
+  },
+  "author": "Adam Jacobus",
+  "license": "MIT",
+  "homepage": "https://github.com/proman21/crewman-four-exercise#readme",
+  "devDependencies": {
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
