@@ -1,5 +1,32 @@
 # Code exercise
 
+My submission for Crewman Four coding excercise written in Typescript.
+
+## Compiling and Running
+
+# Compile
+
+Install required packages
+
+```bash
+$ npm install
+```
+
+# Run
+
+You can run the script using the `start` run-script
+
+```bash
+$ npm start -- ./examples/example_1_input.json ./output.json
+```
+
+Or you can run the compiled script directly with
+
+```bash
+$ npm run prestart
+$ node dist/bundle.js ./examples/example_1_input.json ./output.json
+```
+
 ## Problem
 Suppose you have an application where users create lists of tasks to be completed, where all tasks are ordered.
 
