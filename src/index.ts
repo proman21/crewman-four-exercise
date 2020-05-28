@@ -6,7 +6,7 @@ function cli(args: string[]) {
 
     const inputBuffer: string = fs.readFileSync(inputPath, 'utf-8')
     const input = JSON.parse(inputBuffer)
-    validateData(inputBuffer)
+    validateData(input)
 
     const tasksOutput = flatToHierarchical(input)
 

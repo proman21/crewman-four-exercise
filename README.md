@@ -2,17 +2,13 @@
 
 My submission for Crewman Four coding excercise written in Typescript.
 
-## Compiling and Running
-
-# Compile
+## Running the solution
 
 Install required packages
 
 ```bash
 $ npm install
 ```
-
-# Run
 
 You can run the script using the `start` run-script
 
